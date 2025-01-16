@@ -1,0 +1,28 @@
+1. Use SQL statements to create the following tables in College Student Database. 
+Define NOT NULL, DEFAULT, UNIQUE, and CHECK constraints wherever appropriate.
+
+STUDENT (StudentId, Last, First, Street, City, State, Zip, StartTerm, BirthDate, FacultyId, MajorId, Phone);
+FACULTY (FacultyId, Name, RoomId, Phone, DeptId);
+COURSE (CourseId, Title, Credits, PreReq);
+CRSSECTION (CsId, CourseId, Section, TermId, FacultyId, Day, StratTime, EndTime, RoomId, MaxCount);
+TERM (TermId, TermDesc, StartDate, EndDate);
+ROOM (RoomType, RoomDesc);
+REGISTRATION (StudentId, CsId, Midterm, Final, RegStatus);
+DEPARTMENT (DeptId, DeptName, FacultyId);
+MAJOR (MajorId, MajorDesc);
+LOCATION (RoomId, Building, RoomNo, Capacity, RoomType).
+
+Insert minimum 5 records in each table.
+
+2. Use SQL statements to create the following tables in Corporation Employee
+Database. Define NOT NULL DEFAULT, UNIQUE, and CHECK constraints
+wherever appropriate.
+
+EMPLOYEE (EmployeeId, Lname, Fname, PositionId, Supervisor, HireDate, Salary, Commission, DeptId, QualId);
+POSITION (PositionId, PosDesc);
+DEPT (DeptId, DeptName, Location, EmployeeId);
+QUALIFICATION (QualId, QualDesc);
+EMPLEVEL (LevelNo, LowSalary, HighSalary);
+DEPENDENT (EmployeeId, DependentId, DepDOB, Relation).
+
+Insert minimum 5 records in each table.

@@ -1,0 +1,92 @@
+Outputs:
+
+1.
+
+Employee Name                                  Salary
+------------------------------------------ ----------
+Brown, Chris                                    60000
+Green, Alex                                     40000
+Taylor, Jordan                                  45000
+Martinez, Olivia                                50000
+Lopez, Sophia                                   75000
+
+2.
+
+EMPLOYEEID LNAME                FNAME                    SALARY
+---------- -------------------- -------------------- ----------
+       111 Brown                Chris                     60000
+       333 Taylor               Jordan                    45000
+       555 Lopez                Sophia                    75000
+
+3.
+
+BUILDING
+------------------------------
+Engineering Building
+Science Building
+Electrical Building
+Chemistry Building
+Computer Science Building
+
+4.
+
+      CSID   COURSEID SECTION                  TERMID
+---------- ---------- -------------------- ----------
+         1          1 A                             1
+
+5.
+
+NAME
+--------------------------------------------------
+Dr. John Smith
+Dr. Sarah Johnson
+
+6.
+
+ STUDENTID LAST                 FIRST                CITY                 STATE
+---------- -------------------- -------------------- -------------------- --------------------
+         1 Doe                  Jane                 New York             NY
+         2 Smith                Michael              Newark               NJ
+         3 Williams             Sophia               Albany               NY
+         4 Johnson              Emma                 Trenton              NJ
+
+7.
+
+1 row updated.
+
+8.
+
+0 rows deleted.
+
+9.
+
+  COURSEID Maximum Count
+---------- -------------
+         5           100
+         4            35
+         1            30
+         2            25
+         3            20
+
+10.
+
+1 row created.
+
+11.
+
+  COURSEID TITLE
+---------- --------------------
+         1 Database Systems
+
+12.
+
+no rows selected
+
+13.
+
+ STUDENTID LAST                 FIRST                STARTTERM
+---------- -------------------- -------------------- ---------
+         1 Doe                  Jane                 01-SEP-15
+         2 Smith                Michael              01-SEP-15
+         3 Williams             Sophia               10-JAN-15
+
