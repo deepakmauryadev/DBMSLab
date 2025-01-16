@@ -1,4 +1,3 @@
-
 -- Insert data into term
 INSERT INTO term (TermId, TermDesc, StartDate, EndDate)
 VALUES (1, 'Winter 2020', TO_DATE('2020-01-01', 'YYYY-MM-DD'), TO_DATE('2020-04-30', 'YYYY-MM-DD'));
