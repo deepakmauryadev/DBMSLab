@@ -597,4 +597,4 @@ SELECT
 FROM student 
 WHERE TO_CHAR(StartTerm, 'YYYY') LIKE '2015%';
 
-ROLLBACK TO after_assignment_2;
+COMMIT;
